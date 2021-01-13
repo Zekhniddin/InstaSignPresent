@@ -32,6 +32,9 @@ struct SignUpScreen: View {
             TextField("Address", text: $address)
                 .modifier(CustomModifierTextField())
             
+            SecureField("Password", text: $password)
+                .modifier(CustomModifierTextField())
+            
             Button(action: {
                 
             }) {
